@@ -76,7 +76,6 @@ const Minicart: FC<Partial<MinicartProps>> = ({
 
       case 'alwaysOpen':
         return children
-
       default:
         return (
           <PopupMode
